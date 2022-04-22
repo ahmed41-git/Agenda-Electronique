@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:contentDescription=""
+    tools:context=".MainActivity"
+    android:id="@+id/login">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:layout_gravity="center"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:textColor="@color/background"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/ic_undraw_events_2p66"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:gravity="center"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+          android:src="@drawable/ic_baseline_person_24"  />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="@string/username"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_lock_24"  />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+       android:text="@string/login"
+        android:layout_marginTop="30dp"
+        android:padding="30dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@color/background"
+        />
+
+
+
+
+
+</LinearLayout>

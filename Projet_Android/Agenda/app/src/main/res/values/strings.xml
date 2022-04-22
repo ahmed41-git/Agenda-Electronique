@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Mon agenda</string>
+    <string name="currentdate">Current Date</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="local">Locale.ENGLISH</string>
+    <string name="type_event">Type Event</string>
+    <string name="alarm">Alarm</string>
+    <string name="add_event">Add Event</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="delete">Delete</string>
+    <string name="save">Event Saved</string>
+    <string name="title">identify yourself</string>
+    <string name="error">identification error</string>
+    <string name="annuler">Cancel</string>
+    <string name="bienvenue">Welcome !!!</string>
+    <string name="update">Update</string>
+    <string name="confirm">Event deleted</string>
+    <string name="lieu">Add location</string>
+    <string name="enter">Enter location</string>
+    <string name="title_activity_map">Map</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="carte">show location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

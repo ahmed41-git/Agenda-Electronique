@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/updateeventname"
+        android:background="@color/white"
+        android:hint="Type Event"
+        android:inputType="textShortMessage"
+        android:layout_margin="35dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:id="@+id/updateseteventtime"
+            android:background="@drawable/ic_baseline_alarm_add_24"
+            android:contentDescription="TODO"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/updateTime"
+            android:layout_width="232dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/updateEvent"
+        android:textColor="@color/btn"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>

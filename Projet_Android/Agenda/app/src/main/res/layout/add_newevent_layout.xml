@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/eventname"
+        android:background="@color/white"
+        android:hint="@string/type_event"
+        android:inputType="textShortMessage"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:id="@+id/seteventtime"
+            android:background="@drawable/ic_baseline_alarm_add_24"
+            android:contentDescription="TODO"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eventtime"
+            android:text="00:00 AM"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_weight="2"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alarm"
+            android:text="@string/alarm"
+            android:textColor="@color/white"
+            android:buttonTint="@color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:text="@string/lieu"
+        android:textColor="@color/white"
+        android:buttonTint="@color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lieu"
+        android:background="@color/white"
+        android:hint="@string/enter"
+        android:inputType="textShortMessage"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_event"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/addevent"
+        android:textColor="@color/btn"
+        android:backgroundTint="@color/white"/>
+
+
+
+</LinearLayout>

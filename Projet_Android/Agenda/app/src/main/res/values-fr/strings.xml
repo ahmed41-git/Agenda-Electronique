@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mon agenda</string>
+    <string name="currentdate">Date Courante</string>
+    <string name="sun">Dim</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mer</string>
+    <string name="thu">Jeu</string>
+    <string name="fri">Ven</string>
+    <string name="sat">Sam</string>
+    <string name="local">Locale.FRENCH</string>
+    <string name="type_event">Ajout Evenement</string>
+    <string name="alarm">Alarme</string>
+    <string name="add_event">Ajouter</string>
+    <string name="username">pseudo</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">CONNEXION</string>
+    <string name="delete">Supprimer</string>
+    <string name="save">Evenement enregistré</string>
+    <string name="title">Veuillez-vous identifier</string>
+    <string name="error">login ou mot de passe incorrect</string>
+    <string name="annuler">Annuler</string>
+    <string name="bienvenue">Bienvenue !!!</string>
+    <string name="update" >Modifier</string>
+    <string name="confirm" >Evenement supprimé</string>
+    <string name="lieu">Ajouter lieu</string>
+    <string name="enter">Entrer le lieu</string>
+    <string name="carte">afficher lieu</string>
+
+
+</resources>
